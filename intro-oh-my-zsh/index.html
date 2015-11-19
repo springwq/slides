@@ -10,9 +10,9 @@
   <style type="text/css">
     /* Color Palette Based on Monokai
 
-          body : #191919, #fafafa
-    blockquote : #272822, #eeeeee
-         links : #66d9ef
+          body : #fafafa, #191919
+    blockquote : #efefef, #444444
+         links : #1db4d0
            pre : #272822, #75715e, #dddddd, #f92672,
                  #a6e22e, #66d9ef, #bf79db
 */
@@ -21,8 +21,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #fafafa;
-  background-color: #191919;
+  color: #191919;
+  background-color: #fafafa;
   font-size: 100%;
 }
 
@@ -31,8 +31,9 @@ body {
 /* fade.jpg, wireballblack.png, space.png, snow2.jpg, pinstripe_rain.png, orion.jpg, nodes.jpg */
 
 #slide-1 {
-  background: #222 url(wireball.png) center center no-repeat;
+  background: #222 url(fade.jpg) center center no-repeat;
   background-size: cover;
+  color: #fafafa;
 }
 
 #slide-1 h1 {
@@ -87,7 +88,7 @@ img.badge {
 
 .arrow {
   width: 0; height: 0;
-  border: 15px solid #272822;
+  border: 15px solid #efefef;
   float: left;
   margin-right: 15px;
 
@@ -118,12 +119,12 @@ img.badge {
 }
 
 .prev:hover {
-  border-right-color: #eee;
+  border-right-color: #444;
   cursor: pointer;
 }
 
 .next:hover {
-  border-left-color: #eee;
+  border-left-color: #444;
   cursor: pointer;
 }
 
@@ -149,7 +150,7 @@ h2 {
 h3 {
   font-size: 140%;
   line-height: 1.2;
-  border-bottom: 2px ridge #fafafa;
+  border-bottom: 2px ridge #191919;
   margin: 0;
   padding-bottom: 15px;
 }
@@ -161,15 +162,15 @@ ul {
 }
 
 blockquote {
-  background: #272822;
+  background: #efefef;
   margin-left: 0;
   padding-left: 20px;
-  border-left: 5px solid #eee;
+  border-left: 5px solid #444;
   border-radius: 0 3px 3px 0;
 }
 
 blockquote p {
-  color: #eee;
+  color: #444;
   padding: 0.5em;
 }
 
@@ -215,12 +216,12 @@ blockquote p {
 
 a {
   text-decoration: none;
-  color: #66D9EF;
+  color: #1DB4D0;
 }
 
 a:hover {
-  color: #66D9EF;
-  border-bottom: 1px solid #66D9EF;
+  color: #1DB4D0;
+  border-bottom: 1px solid #1DB4D0;
 }
 
 pre {
@@ -259,6 +260,7 @@ table td, table th {
 code {
   background-color: #272822;
   border-radius: 3px;
+  color: #fafafa;
   padding: 0.1em 0.35em;
 }
 
@@ -488,25 +490,64 @@ pre .xml .cdata {
 
   <div class="slide" id="slide-1">
     <section class="slide-content"><h1 id="oh-my-zsh">Oh My Zsh</h1>
-<h2 id="a-first-look-at-oh-my-zsh">A first look at oh-my-zsh</h2>
+<h2 id="-">打造黑客风格的命令行终端</h2>
 </section>
   </div>
   <div class="slide hidden" id="slide-2">
-    <section class="slide-content"><h3 id="a-textual-example">A textual example</h3>
-<p>Content can be written in <strong>Markdown!</strong> New lines no longer need two angle brackets.</p>
-<p>This will be in a separate paragraph</p>
+    <section class="slide-content"><h3 id="oh-my-zsh-">Oh My Zsh 简介</h3>
+<h4 id="git-">Git 分支显示和自动补全</h4>
+<p><img src="" alt=""></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-3">
-    <section class="slide-content"><h3 id="a-list-of-things">A list of things</h3>
-<ul>
-<li>Item 1</li>
-<li>Item B</li>
-<li>Item gamma</li>
-</ul>
+    <section class="slide-content"><h3 id="oh-my-zsh-">Oh My Zsh 简介</h3>
+<h4 id="-">查看服务器日志</h4>
+<p><img src="" alt=""></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-4">
+  <div class="slide hidden  " id="slide-4">
+    <section class="slide-content"><h3 id="-mac-oh-my-zsh">在 Mac 上安装 Oh My Zsh</h3>
+<p>Oh My Zsh 是用来管理 zsh 配置的一个框架</p>
+<blockquote>
+<p>Oh My Zsh is an open source, community-driven framework for managing your zsh configuration.</p>
+</blockquote>
+</section>
+  </div>
+  <div class="slide hidden  " id="slide-5">
+    <section class="slide-content"><h3 id="-mac-oh-my-zsh">在 Mac 上安装 Oh My Zsh</h3>
+<ul>
+<li>安装</li>
+</ul>
+<blockquote>
+<p><a href="https://github.com/robbyrussell/oh-my-zsh">https://github.com/robbyrussell/oh-my-zsh</a></p>
+</blockquote>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-6">
+    <section class="slide-content"><h3 id="-">选择主题</h3>
+<ul>
+<li>编辑 <code>~/.zshrc</code> 文件</li>
+</ul>
+<p><code>ZSH_THEME=&quot;robbyrussell&quot;</code></p>
+<blockquote>
+<p><a href="https://github.com/robbyrussell/oh-my-zsh/wiki/themes">https://github.com/robbyrussell/oh-my-zsh/wiki/themes</a></p>
+</blockquote>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-7">
+    <section class="slide-content"><h3 id="-zshrc-">.zshrc 文件</h3>
+<p>安装一些命令行工具后，如果不能正常工作，注意修改 <code>.zshrc</code> 文件 <code>PATH</code> 路径</p>
+<p>我的 <code>zshrc</code></p>
+<blockquote>
+<p><a href="https://github.com/springwq/dotfiles/blob/master/.zshrc">https://github.com/springwq/dotfiles/blob/master/.zshrc</a></p>
+</blockquote>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-8">
+    <section class="slide-content"><h3 id="iterm">iTerm</h3>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-9">
     <section class="slide-content"><div class="author">
   <h1 class="name">Steven Wu</h1>
     <h3 class="twitter">
