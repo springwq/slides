@@ -25,7 +25,7 @@ controls: true
 
 * Oh My Zsh 是用来更好的配置 zsh ( Z shell) 的一个由社区驱动的框架
 
-* 本质上是发挥了 zsh 的特性  
+* 本质上解决了如何更好的使用 zsh 的问题  
 
 --
 ### Zsh 和 Bash 的对比
@@ -103,14 +103,18 @@ ZSH_THEME="robbyrussell"
 
 --
 
-### .zshrc 文件
-* 注意修改 `.zshrc` 文件 `PATH` 路径
-* 我的 `zshrc`
-  
-> https://github.com/springwq/dotfiles/blob/master/.zshrc
+### 踩过的坑
+
+* 安装完新程序后（e.g. rbenv），注意修改 `.zshrc` 文件 `PATH` 路径
+* 修改完 .zshrc 文件好，运行 `source .zshrc` 或者重新打开终端，才会生效 
+* 我的 `zshrc`: https://github.com/springwq/dotfiles/blob/master/.zshrc
 
 --
+### MacTalk 
 
+http://macshuo.com/?p=676
+
+--
 ### 其它高效率的命令行工具
 
 * iTerm
