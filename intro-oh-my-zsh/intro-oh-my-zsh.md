@@ -1,4 +1,4 @@
-title: Basic Example
+title: Introduce Oh My Zsh
 author:
   name: Steven Wu
   twitter: springwq
